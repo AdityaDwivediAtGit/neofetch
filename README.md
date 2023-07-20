@@ -1,25 +1,60 @@
-<h3 align="center"><img src="https://i.imgur.com/ZQI2EYz.png" alt="logo" height="100px"></h3>
-<p align="center">A command-line system information tool written in bash 3.2+</p>
+# My Custom Neofetch Configuration
 
-<p align="center">
-<a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-<a href="https://github.com/dylanaraps/neofetch/releases"><img src="https://img.shields.io/github/release/dylanaraps/neofetch.svg"></a>
-<a href="https://repology.org/metapackage/neofetch"><img src="https://repology.org/badge/tiny-repos/neofetch.svg" alt="Packaging status"></a>
-</p>
+## Before
+![screenshot_orignal_neofetch](https://github.com/AdityaDwivediAtGit/neofetch/assets/107645490/be91cd2f-b7c1-4932-998b-51589c88efd3)
 
-<img src="https://i.imgur.com/GFmC5Ad.png" alt="neofetch" align="right" height="240px">
-
-Neofetch is a command-line system information tool written in `bash 3.2+`. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.
-
-The overall purpose of Neofetch is to be used in screen-shots of your system. Neofetch shows the information other people want to see. There are other tools available for proper system statistic/diagnostics.
-
-The information by default is displayed alongside your operating system's logo. You can further configure Neofetch to instead use an image, a custom ASCII file, your wallpaper or nothing at all.
-
-<img src="https://i.imgur.com/lUrkQBN.png" alt="neofetch" align="right" height="240px">
-
-You can further configure Neofetch to display exactly what you want it to. Through the use of command-line flags and the configuration file you can change existing information outputs or add your own custom ones.
-
-Neofetch supports almost 150 different operating systems. From Linux to Windows, all the way to more obscure operating systems like Minix, AIX and Haiku. If your favourite operating system is unsupported: Open up an issue and support will be added.
+## After
+![VirtualBox_arch hyprland_20_07_2023_14_27_12](https://github.com/AdityaDwivediAtGit/neofetch/assets/107645490/594994fa-5d47-4c99-93f7-d1f515fd34be)
 
 
-### More: \[[Dependencies](https://github.com/dylanaraps/neofetch/wiki/Dependencies)\] \[[Installation](https://github.com/dylanaraps/neofetch/wiki/Installation)\] \[[Wiki](https://github.com/dylanaraps/neofetch/wiki)\]
+## Description
+
+This repository contains my customized configuration for Neofetch, a command-line system information tool. I've added my own "Aditya" logo and personalized some contents to make my Neofetch display unique!
+
+## Usage Instructions
+
+1. Ensure Neofetch is installed:
+   - If you don't have Neofetch installed, run the following command to install it:
+     ```
+     sudo pacman -S neofetch
+     ```
+
+2. Clone this repository:
+     ```
+     git clone https://github.com/AdityaDwivediAtGit/neofetch.git
+     ```
+
+3. Replace the Neofetch configuration:
+   - Remove the old `config.conf` file (if it exists):
+     ```
+     rm ~/.config/neofetch/config.conf
+     ```
+
+   - Copy `config.conf` and `aditya_logo.sh` from this repository and paste them into your Neofetch configuration directory:
+     ```
+     cp neofetch/.config/neofetch/config.conf ~/.config/neofetch/
+     cp neofetch/.config/neofetch/aditya_logo.sh ~/.config/neofetch/
+     ```
+
+4. Run Neofetch:
+   - Now, when you run `neofetch`, you'll see my custom "Aditya" logo and personalized information!
+
+5. Customize the logo:
+   - Feel free to edit the `aditya_logo.sh` file to add your own custom logo or modify the Neofetch display according to your needs.
+
+## Customization
+
+- The `config.conf` file contains Neofetch's main configuration settings.
+- The `aditya_logo.sh` file contains the "Aditya" logo and other custom logos for display.
+- Customize `aditya_logo.sh` to add your own ASCII art or modify the existing logos.
+
+
+## Acknowledgments
+
+- Neofetch: [https://github.com/dylanaraps/neofetch](https://github.com/dylanaraps/neofetch)
+- Arch Linux Logo: [https://wiki.archlinux.org/title/Arch_Linux](https://wiki.archlinux.org/title/Arch_Linux)
+- Debian Logo: [https://www.debian.org/logos/](https://www.debian.org/logos/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
