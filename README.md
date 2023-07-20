@@ -37,7 +37,7 @@ This repository contains my customized configuration for Neofetch, a command-lin
      ```
 
 4. Run Neofetch:
-   - Now, when you run `neofetch`, you'll see my custom "Aditya" logo and personalized information!
+   - Now, when you run `neofetch`, you'll see my custom "Aditya" logo and personalized information! BTW, I use Arch! 🐧😎
 
 5. Customize the logo:
    - Feel free to edit the `aditya_logo.sh` file to add your own custom logo or modify the Neofetch display according to your needs.
